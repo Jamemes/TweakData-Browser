@@ -1,0 +1,17 @@
+{
+	"name": "TweakData Browser",
+	"description": "TweakData Browser.",
+	"author": "James",
+	"version": "1",
+	"updates" : [
+		{
+			"identifier" : "TweakData-Browser",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/Jamemes/TweakData-Browser/meta/meta.json"
+			}
+		}
+	],
+	"hooks": [
+		{"hook_id": "lib/managers/menumanager", "script_path": "menumanager.lua"}
+	]
+}
